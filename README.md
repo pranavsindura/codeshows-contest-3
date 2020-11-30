@@ -79,8 +79,8 @@ Since sum of digits is 3 the number is divisible by 3 so there exists no number 
 ### Ques 2
 ![Q2](/mcq/2.jpg)
 
-We can choose any of two h,a,d;
-2c1*2c1*2c1=8
+We can choose any of two h,a,d;  
+2c1 * 2c1 * 2c1 = 8
 
 ### Ques 3
 ![Q3](/mcq/3.jpg)
@@ -90,39 +90,39 @@ For any prime number p (p-1)!%p=p-1. We know 1e9+7 is a prime number so answer w
 ### Ques 4
 ![Q4](/mcq/4.jpg)
 
-We can divide 200 people into 2 groups of 196 people and 4 people.
-One of those 4 people can communicate with 196 so he has message of himself and 196 people.
+We can divide 200 people into 2 groups of 196 people and 4 people.  
+One of those 4 people can communicate with 196 so he has message of himself and 196 people.  
 Now in 4 round these 4 people can share the message among themselves (How?)
-Figure out.
+Figure out.  
 Now one of those 4 people can communicate with 196 people to share the message of those 4 people.
 
 ### Ques 5
 ![Q5](/mcq/5.jpg)
 
-Since i is added 1 at first time 2 at first time how many steps does it take to reach n?
-Let us assume it takes x steps we know
-1+2+... x= x * (x+1)/2
-This must be approximately equal to n
-x * (x+1)/2=n;
-x * (x+1)=2 * n
-x^2 +x =2 * n
-X is proptional to (n)^(½)
+Since i is added 1 at first time 2 at first time how many steps does it take to reach n?  
+Let us assume it takes x steps we know  
+1+2+... x= x * (x+1)/2  
+This must be approximately equal to n  
+x * (x+1)/2=n;  
+x * (x+1)=2 * n  
+x^2 +x =2 * n  
+x is proptional to (n)^(½)  
 
 ### Ques 6
 ![Q6](/mcq/6.jpg)
 
-If there is one cycle there will be infinite bcz graph has reached same node again.
-Since this process will always result in making an power of 4 so you will never get an loop.
-You can write this code and it will never TLE for feasible n so you can get a verification.
-EX:
-3->10->5->16->8->2->1
+If there is one cycle there will be infinite because graph has reached same node again.  
+Since this process will always result in making an power of 4 so you will never get an loop.  
+You can write this code and it will never TLE for feasible n so you can get a verification.  
+EX:  
+3->10->5->16->8->2->1  
 
 ### Ques 7
 ![Q7](/mcq/7.jpg)
 
-Answer is 0 because any number raised to power 4 mod 16 is either 0 or 1.
-So there are 10 elements so SUMMATION(a[i])%16 can be in range [0,10] but
-65532%16=12 so there is no way to reach there.
+Answer is 0 because any number raised to power 4 mod 16 is either 0 or 1.  
+So there are 10 elements so SUMMATION(a[i])%16 can be in range [0,10] but,  
+65532%16=12 so there is no way to reach there.  
 
 ### Ques 8
 ![Q8](/mcq/8.jpg)
