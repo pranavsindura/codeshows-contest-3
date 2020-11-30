@@ -69,3 +69,9 @@ We can apply this same idea for multiple ingredients.
 We pick a quality `X`, for each ingredient we buy from the shop, that sells the ingredient at `quality at least X` and has the `least price`.
 
 The running time of this approach is `O(N * M * log(maxQ))`, where maxQ is the maximum quality present.
+
+## MCQs
+
+![Q1](/mcq/1.jpg)
+
+Since sum of digits is 3 the number is divisible by 3 so there exists no number other than 3 which is prime.
