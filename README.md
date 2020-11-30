@@ -74,7 +74,7 @@ The running time of this approach is `O(N * M * log(maxQ))`, where maxQ is the m
 #### Approach
 The PIN only consist of **4** digit numbers. So we can loop through all 4 digit numbers.  
 Then check how many of these numbers can be the PIN.  
-To be a valid PIN, it must satisfy all the guesses, i.e. when matched against all the guesses, it must produce the correct amount of the green flickers (x) and yellow flickers (y).  
+To be a valid PIN, it must satisfy all the guesses, i.e. when matched against all the guesses, it must produce the correct amount of the green flickers `x` and yellow flickers `y`.  
 
 If the number of PINs that satisfy all guesses are,
 - `0`, this means the information is incorrect
