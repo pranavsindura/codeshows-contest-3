@@ -70,6 +70,20 @@ We pick a quality `X`, for each ingredient we buy from the shop, that sells the 
 
 The running time of this approach is `O(N * M * log(maxQ))`, where maxQ is the maximum quality present.
 
+### An Endless Cycle
+#### Approach
+The PIN only consist of **4** digit numbers. So we can loop through all 4 digit numbers.  
+Then check how many of these numbers can be the PIN.  
+To be a valid PIN, it must satisfy all the guesses, i.e. when matched against all the guesses, it must produce the correct amount of the green flickers (x) and yellow flickers (y).  
+
+If the number of PINs that satisfy all guesses are,
+- `0`, this means the information is incorrect
+- `> 1`, then we need to more more guesses
+- `1`, there is only one valid PIN, it is the required answer
+
+It can be implemented as a naive brute force in `O(10^4 * N * D^2)`, where D are the number of digits, in this case D = 4.  
+Giving us an order of roughly `O(10^6)`.
+
 ## MCQs
 ### Ques 1
 ![Q1](/mcq/1.jpg)
