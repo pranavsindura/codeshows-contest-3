@@ -142,3 +142,19 @@ So there are 10 elements so SUMMATION(a[i])%16 can be in range [0,10] but,
 ![Q8](/mcq/8.jpg)
 
 There is no such triplet.
+
+### Ques 9
+![Q9](/mcq/9.jpg)
+
+First number is divisible by 3.  
+Second is divisible by 11 as difference between sum of elements at even and odd indices is k * 11.  
+45 is divisible by 3.
+
+### Ques 10
+![Q10](/mcq/10.jpg)
+
+1 2 3  
+1 2 6  
+1 5 6  
+4 5 6  
+There four subsequences form string “ans”.  
